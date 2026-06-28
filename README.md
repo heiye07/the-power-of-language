@@ -14,6 +14,12 @@ mkdir -p "$HOME/.agents/skills" && rm -rf "$HOME/.agents/skills/the-power-of-lan
 
 Restart Codex after installation so it can discover the new skill.
 
+If you prefer the hosted install script:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/heiye07/the-power-of-language/main/install.sh | bash
+```
+
 ## Skill Name
 
 Use this skill as:
@@ -39,6 +45,7 @@ chapters/                Structured notes for the preface, 11 chapters, and epil
 glossary.md              Key terms and definitions
 patterns.md              Reusable analytical patterns
 cheatsheet.md            Decision rules and quick reference
+install.sh               Optional installer script
 ```
 
 ## Covered Topics
